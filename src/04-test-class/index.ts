@@ -13,7 +13,6 @@ export class BankAccount {
 
   public deposit(amount: number): this {
     this._balance += amount;
-
     return this;
   }
 
