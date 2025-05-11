@@ -16,7 +16,6 @@ describe('doStuffByTimeout', () => {
     jest.spyOn(global, 'setTimeout');
   });
 
-
   test('should set timeout with provided callback and timeout', () => {
     const callback = jest.fn();
     doStuffByTimeout(callback, 3000);
